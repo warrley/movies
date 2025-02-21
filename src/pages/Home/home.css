@@ -1,8 +1,8 @@
 .movies-list {
-    max-width: 800px;
+    max-width: 90%;
     margin: 14px auto;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     border-radius: 10px;
     background-color: white;
 }
