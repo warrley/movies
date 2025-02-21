@@ -12,8 +12,8 @@ function Header() {
                     </div>
                 </Link>
                 <div className='menu'>
-                    <Link className='favorites' to="/"> <Home fill='currentColor' width="30" height="30" />Home </Link>
-                    <Link className='home' to="/favorites"> <Star fill='currentColor' width="30" height="30" />Favorites </Link>
+                    <Link className='favorites' to="/"> <Home fill='currentColor' color='white' width="30" height="30" />Home </Link>
+                    <Link className='home' to="/favorites"> <Star fill='currentColor' color='white' width="30" height="30" />Favorites </Link>
                 </div>
             </div>
         </header>
