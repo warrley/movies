@@ -1,10 +1,12 @@
 .movies-list {
+    position: relative;
     max-width: 90%;
     margin: 14px auto;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    border-radius: 10px;
+    border-radius: 20px;
     background-color: white;
+    cursor: pointer;
 }
 
 .loading {
@@ -20,10 +22,19 @@
 }
 
 .movies-list strong {
-    margin-bottom: 14px;
+    margin-top: 10px;
     text-align: center;
     display: block;
     font-size: 20px;
+    text-decoration: underline;
+    color: #116feb;
+    transition: all 0.3s;
+}
+
+.movies-list strong:hover  {
+    background-color: #116feb;
+    color: white;
+    border-radius: 10px;
 }
 
 .movies-list img {
@@ -32,19 +43,12 @@
     max-height: 340px;
     object-fit: cover;
     display: block;
-    border-top-left-radius: 8px;
-    border-top-right-radius: 8px;
+    border-radius: 20px;
+    transition: all 0.3s;
 }
 
-.movies-list a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 10px 0;
-    font-size: 24px;
-    background-color: #116FEB;
-    text-decoration: none;
-    color: white;
-    border-bottom-left-radius: 8px;
-    border-bottom-right-radius: 8px;
+.movies-list img:hover {
+    filter: brightness(50%);
 }
+
+

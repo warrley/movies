@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import api from '../../services/api'
 import { Link } from "react-router-dom";
 import './home.css'
+import { Play } from "lucide-react";
 
 // URL of API: https://api.themoviedb.org/3/movie/now_playing?api_key=d3f900a2a7fd83e3285bbad5c82abf44
 
@@ -43,9 +44,10 @@ function Home() {
             <div className="movies-list">
                 {movies.map(movie => (
                     <article key={movie.id}>
-                        <strong>{movie.title}</strong>
-                        <img src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt={movie.title} />
-                        <Link to={`/movie/${movie.id}`}>Acess</Link>
+                        <Link to={`/movie/${movie.id}`}>
+                            <img className="img" src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt={movie.title} />
+                            <strong>{movie.title}</strong>
+                        </Link>
                     </article>
                 ))}
             </div>
