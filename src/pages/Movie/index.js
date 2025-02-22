@@ -38,13 +38,13 @@ function Movie() {
         const hasMovie = savedMovies.some((savedMovies) => savedMovies.id === movie.id);
 
         if (hasMovie) {
-            alert("ESSE FILME JA ESTA NA LISTA");
+            alert("THIS MOVIE IS ALREADY ON THE FAVORITES");
             return;
         }
 
         savedMovies.push(movie);
         localStorage.setItem("@myList", JSON.stringify(savedMovies));
-        alert("FILME SALVO COM SUCESSO");
+        alert("MOVIE SAVED SUCCESSFULLY");
 
     }
     
