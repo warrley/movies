@@ -76,7 +76,6 @@ function Movie() {
                     </div>
                 </div>
             </div>
-
             <div className="mobile">
                 <div className="mob-top">
                     <img className="img-mob" src={`https://image.tmdb.org/t/p/original/${movie.poster_path}`} alt={movie.title}/>
