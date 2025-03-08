@@ -53,3 +53,16 @@ header{
     display: flex;
     gap: 8px;
 }
+
+@media (max-width: 750px) {
+    .logo-text {
+        font-size: 15px;
+    }
+    .logo span {
+        font-size: 20px;
+        margin-top: 20px;
+    }
+    .menu p {
+        display: none;
+    }
+}
