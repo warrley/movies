@@ -99,9 +99,8 @@
         padding: 7px;
         color: white;
         backdrop-filter: blur(10px);
-        width: 70%;
+        width: 90%;
         border-radius: 20px;
-        min-width: 350px;
     }
     .mob-top {
         display: flex;
