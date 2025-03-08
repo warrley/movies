@@ -79,4 +79,10 @@
     .my-movies ul {
         width: 100%;
     }
+    .my-movies span {
+        font-size: 18px;
+    }
+    .my-movies div {
+        font-size: 15px;
+    }
 }

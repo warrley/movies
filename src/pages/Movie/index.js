@@ -83,7 +83,7 @@ function Movie() {
                     <div className="mob-text-top">
                         <div>
                             <h1>{movie.title}</h1>
-                            <strong>Avaliation: {movie.vote_average} / 10</strong>
+                            <h5>Avaliation: {movie.vote_average} / 10</h5>
                         </div>
 
                         <div className="mob-buttons">

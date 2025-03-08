@@ -118,6 +118,7 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
+        background-color: black;
     }
     .mob-text-top h1 {
         margin: 0;
@@ -132,7 +133,7 @@
         gap: 10px;
     }
     .mob-buttons button {
-        font-size: 20px;
+        font-size: 15px;
         border: 0;
         outline: none;
         padding: 6px;
